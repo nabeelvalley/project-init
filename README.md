@@ -1,8 +1,16 @@
+![Publish Node.js Package](https://github.com/nabeelvalley/project-init/workflows/Publish%20Node.js%20Package/badge.svg)
+
 # Starter Templates
 
 Preconfigured Starter templates for different frameworks, languages, and configurations
 
 ## Usage
+
+```sh
+npx @nabeelvalley/project-init
+```
+
+And then select a template and a name for your project. The CLI will then initialize a template with your file contents in the selected directory
 
 ## Included Templates
 

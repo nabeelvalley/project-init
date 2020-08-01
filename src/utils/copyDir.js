@@ -18,9 +18,8 @@ const copyFile = (inPath, outPath) => {
 const tryMkdir = (path) => {
   try {
     fs.mkdirSync(path)
-
   } catch (err) {
-    console.log(`error creating directory ${path}`)
+    // do nothing
   }
 }
 
@@ -30,15 +29,10 @@ const tryMkdir = (path) => {
  * @param outPath Path to output directory
  */
 const copyDir = (inPath, outPath) => {
-  
-  console.log({inPath, outPath})
-
   tryMkdir(outPath)
   
   const files = fs.readdirSync(inPath)
 
-  console.log(files)
-  
   for (let i = 0; i < files.length; i++) {
     
     const current = fs.lstatSync(path.join(inPath, files[i]))

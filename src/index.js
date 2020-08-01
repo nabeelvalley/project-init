@@ -39,6 +39,8 @@ const main = async () => {
   }
 
   copyDir(inPath, outPath)
+
+  console.log(`template created in ${project} directory`)
 }
 
 if (process.argv.includes('--help') || process.argv.includes('-h')) {
