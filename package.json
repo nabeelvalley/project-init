@@ -1,0 +1,23 @@
+{
+  "name": "@nabeelvalley/project-init",
+  "main": "index.js",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Command line application for quickly generating projects based on starter templates",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/nabeelvalley/project-init.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "start": "node --unhandled-rejections=strict src/index.js"
+  },
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  },
+  "bin": {
+    "project-init": "./src/index.js"
+  }
+}

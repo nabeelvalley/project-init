@@ -1,0 +1,17 @@
+{
+  "name": "ts-static",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"yarn run parcel-start\" \"yarn run ts-watch\"",
+    "parcel-start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "ts-watch": "tsc --watch --noEmit src/index.ts"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ts-node",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node --unhandled-rejections=strict build/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^14.0.27",
+    "typescript": "^3.9.7"
+  }
+}
