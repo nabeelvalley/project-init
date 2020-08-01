@@ -8,9 +8,6 @@
     "type": "git",
     "url": "ssh://git@github.com/nabeelvalley/project-init.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "scripts": {
     "start": "node --unhandled-rejections=strict src/index.js"
   },
