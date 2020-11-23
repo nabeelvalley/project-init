@@ -4,6 +4,7 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
+    "develop": "yarn build && yarn start",
     "start": "node --unhandled-rejections=strict build/index.js"
   },
   "dependencies": {

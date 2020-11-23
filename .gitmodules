@@ -1,0 +1,3 @@
+[submodule "src/templates/gatsby-mdx-tailwind"]
+	path = src/templates/gatsby-mdx-tailwind
+	url = https://github.com/nabeelvalley/gatsby-mdx-tailwind-framer-template.git
